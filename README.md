@@ -1,70 +1,21 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para poder abrir un repositorio de GitHub en Visual Studio Code debes seguir estos pasos:
 
-## Available Scripts
+1. Clonar el repositorio:
+Abre Visual Studio Code.
+Ve al menú View y selecciona Clone Git Repository...
+Pega la URL del repositorio de GitHub y elige la ubicación local para clonarlo.
+2. Abrir la carpeta del proyecto:
+Una vez clonado, ve a File -> Open Folder.
+Selecciona la carpeta del proyecto que acabas de clonar.
+3. Instalar dependencias:
+Abre la terminal integrada en Visual Studio Code (Terminal -> New Terminal).
+Dentro de la terminal, navega hasta la carpeta raíz del proyecto (cd nombre_del_proyecto).
+Ejecuta "npm install" para instalar las dependencias del proyecto.
+4. Iniciar la aplicación:
+Utiliza el comando npm start en la terminal para iniciar el servidor de desarrollo de React.
+La aplicación debería abrirse en tu navegador predeterminado en la dirección localhost:3000.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+La aplicacion cuenta con 3 sectores la cual la primera cuenta con una tabla con los productos seleccionados con su precio unitario y subtotal (precio unitario por la cantidad del producto)
+dentro de la tabla en cantidad tenemos 2 botones uno para incrementar y otro para disminuir las cantidades del producto. y el boton "eliminar" del final saca ese producto de la tabla.
+los otros 2 sectores son 2 tablas uno que muestra los productos a seleccionar para meterlos a la tabla principal con sus respectivos precios  y la  restante es la que muestra la cantidad de productos que se seleccionaron mas la suma de los subtotales.
